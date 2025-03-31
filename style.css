@@ -1,0 +1,93 @@
+:root {
+    --angular-red: #DD0031;
+    --soft-pink: #FFC0CB;
+    --purple: #A000FF;
+    --fuchsia: #E91E63;
+    --pastel-pink: #FFE4E1;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    margin: 0px;
+}
+
+nav {
+    background-color: #aaaaaa; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: var(--fuchsia);
+}
+
+ul {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+h1 {
+    padding: 1.20rem;
+    color: var(--fuchsia);
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: .875rem;
+}
+
+main {
+    padding: 1.20rem;
+}
+
+
+button {
+    background-color: var(--angular-red);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--purple);
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: black;
+    border-top: solid 1px #dfdfdf;
+    text-align: center;
+    font-size: .852rem;
+}
