@@ -83,6 +83,27 @@ button:hover {
     background-color: var(--purple);
 }
 
+/* Grid */
+
+.container {
+    background-color: #ffffff;
+    border: 1px solid rgb(223, 223, 223);
+    border-radius: 8px;
+
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-rows: 200px 300px 100px;
+    /*grid-auto-rows*/
+    gap: 14px;
+    padding: 12px;
+}
+
+.container div {
+    background: #dedede;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 6px;
+}
+
 footer {
     padding-top: 2rem;
     padding-bottom: 2rem;
